@@ -1,12 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pernikahan</title>
+    <title>Undangan Pernikahan</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>fulan &amp; fulana</h1>
-    <p>awal kami pertemuan di tempat umum, kami saling pandang-pandangan dan kami sama-sama suka akhir nya kami menikah</p>
+
+    <!-- Header -->
+    <header class="hero">
+        <h1>Undangan Pernikahan</h1>
+        <h2>Fulan & Fulana</h2>
+        <p>Dengan penuh rasa syukur kami mengundang Anda untuk hadir</p>
+        <a href="#acara" class="btn">Lihat Acara</a>
+    </header>
+
+    <!-- Cerita -->
+    <section class="section">
+        <h2>Cerita Kami</h2>
+        <p>
+            Awal kami bertemu di tempat sederhana, saling mengenal dan akhirnya
+            Allah mempertemukan kami dalam ikatan suci pernikahan.
+        </p>
+    </section>
+
+    <!-- Galeri -->
+    <section class="section">
+        <h2>Galeri Foto</h2>
+        <div class="gallery">
+            <img src="pngtree-muslim-wedding-cartoon-style-married-couple-beautiful-bride-holding-flower-bouquet-png-image_4420207.png" alt="Foto 1">
+            <img src="pngtree-muslim-wedding-couple-romance-and-love-just-married-romantic-cartoon-png-image_13533233.png" alt="Foto 2">
+            <img src="f868391472a3500645fca98f89b0bb93.jpg" alt="Foto 3">
+            <img src="5fbcf26c8a142dad78f595348bb38066.jpg" alt="Foto 4">
+        </div>
+    </section>
+
+    <!-- Detail Acara -->
+    <section class="section acara" id="acara">
+        <h2>Detail Acara</h2>
+
+        <div class="card">
+            <h3>Akad Nikah</h3>
+            <p>📅 Minggu, 20 April 2026</p>
+            <p>⏰ Pukul 09:00 WIB</p>
+            <p>📍 Masjid Raya Jakarta</p>
+        </div>
+
+        <div class="card">
+            <h3>Resepsi</h3>
+            <p>📅 Minggu, 20 April 2026</p>
+            <p>⏰ Pukul 11:00 WIB</p>
+            <p>📍 Gedung Serbaguna Jakarta</p>
+        </div>
+    </section>
+
+    <!-- Maps -->
+    <section class="section">
+        <h2>Lokasi Acara</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.8237897828353!2d106.82268847499257!3d-6.155807693831333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f3ef7d6cfb3f%3A0x3e5c7f94a2c7e42d!2sJakarta!5e0!3m2!1sid!2sid!4v1694437600000!5m2!1sid!2sid"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </section>
+
+     <section class="section">
+        <h2>Pesan</h2>
+        <p>
+            alhamdullilah jaza kumullahu khoiro, kami ucap syukur kepada anda karna akan mendatangi pada pernikahan antara fulan &amp; fulana, kami sebagai keluarga besar mengucapkan syukur pada anda atas doa dan restu nya.
+        </p>
+    </section>
+
+    <!-- Form Doa -->
+    <section class="section">
+        <h2>Kirim Doa & Ucapan</h2>
+
+        <form class="form">
+            <input type="text" placeholder="Nama Anda..." required>
+            <textarea placeholder="Tulis doa untuk pengantin..." required></textarea>
+            <button type="submit">Kirim Ucapan</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>
+            Terima kasih atas doa dan restu Anda ❤️ <br>
+            Fulan & Fulana
+        </p>
+    </footer>
+
 </body>
 </html>

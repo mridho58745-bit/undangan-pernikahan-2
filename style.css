@@ -1,0 +1,175 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Body */
+body {
+    background: linear-gradient(to bottom, #fff0f5, #ffffff);
+    color: #333;
+    text-align: center;
+}
+
+/* Header Hero */
+.hero {
+    padding: 80px 20px;
+    background: linear-gradient(to right, #ff758c, #ff7eb3);
+    color: white;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.hero h1 {
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.hero h2 {
+    font-size: 45px;
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* Button */
+.btn {
+    background: white;
+    color: #ff4d6d;
+    padding: 12px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #ffe0e9;
+}
+
+/* Section */
+.section {
+    padding: 60px 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.section h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #ff4d6d;
+}
+
+.section p {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 160px;
+    height: 160px;
+    border-radius: 20px;
+    object-fit: cover;
+    transition: 0.3s;
+}
+
+.gallery img:hover {
+    transform: scale(1.08);
+}
+
+/* Card Acara */
+.acara {
+    background: #fff5f8;
+    border-radius: 30px;
+}
+
+.card {
+    background: white;
+    margin: 20px auto;
+    padding: 25px;
+    width: 90%;
+    max-width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #ff4d6d;
+}
+
+.card p {
+    margin: 6px 0;
+}
+
+/* Maps */
+iframe {
+    width: 100%;
+    height: 300px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+
+/* Form */
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: auto;
+}
+
+.form input,
+.form textarea {
+    padding: 12px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 15px;
+}
+
+.form textarea {
+    height: 120px;
+    resize: none;
+}
+
+.form button {
+    background: #ff4d6d;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.form button:hover {
+    background: #e63b5c;
+}
+
+/* Footer */
+footer {
+    background: #ff758c;
+    color: white;
+    padding: 25px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    margin-top: 40px;
+}

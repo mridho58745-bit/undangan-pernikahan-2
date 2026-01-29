@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    justify-content: center; /* Tengah horizontal */
+    align-items: center;     /* Tengah vertikal */
+    height: 100vh;
+    background-image: url("corak.png");
+    background-size: 675px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.btn-undangan {
+    background: linear-gradient(135deg, #ff4d6d, #ff9aa2);
+    color: white;
+    border: none;
+    padding: 18px 45px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 8px 20px rgba(255, 77, 109, 0.4);
+    transition: 0.4s ease;
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* Nama Pengantin */
+.btn-undangan span {
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+}
+
+/* Hover Efek */
+.btn-undangan:hover {
+    transform: scale(1.08);
+    box-shadow: 0 10px 30px rgba(255, 77, 109, 0.7);
+}
+
+/* Klik Efek */
+.btn-undangan:active {
+    transform: scale(0.95);
+}
